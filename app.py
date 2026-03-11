@@ -92,7 +92,7 @@ st.markdown('<div class="subtitle">Paste any SMS message below to check if it\'s
 # -------- Card --------
 st.markdown('<div class="card">', unsafe_allow_html=True)
 
-input_sms = st.text_area("", height=150)
+input_sms = st.text_area("Enter your message", height=150)
 
 char_count = len(input_sms)
 st.caption(f"{char_count} characters")
