@@ -33,14 +33,7 @@ color:#cbd5f5;
 margin-bottom:35px;
 }
 
-/* Glass Card */
-.card{
-background: rgba(255,255,255,0.05);
-padding:30px;
-border-radius:15px;
-backdrop-filter: blur(12px);
-box-shadow:0 8px 25px rgba(0,0,0,0.3);
-}
+
 
 /* Textbox */
 textarea{
